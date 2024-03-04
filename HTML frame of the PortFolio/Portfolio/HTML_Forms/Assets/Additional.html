@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <button class="Btn_Hireme">Hire Me</button>
+    <button class="Btn_Mywork">My Work</button>
+</div>
+<script>
+    const clickSound = document.getElementById('clickSound');
+    const Hire_Btn = document.getElementById('Hire_Btn');
+
+    Hire_Btn.addEventListener('click', () => {
+        clickSound.play();
+        clickSound.playbackRate = 1.5;
+    });
+
+</script>
+
+<script>
+    const clickSound2 = document.getElementById('clickSound2');
+    const MyWorkBtn = document.getElementById('MyWorkBtn');
+
+    MyWorkBtn.addEventListener('click', () => {
+        clickSound2.play();
+        clickSound2.playbackRate = 1.5;
+    });
+
+</script>
+</body>
+</html>
